@@ -1,5 +1,5 @@
 # ngc
-an R Package for estimating network Granger causality. It implements the general lasso, truncating lasso, adaptively thresholded lasso, and group lasso regression regularization framework for longitudinal and time series data. These methods are described in Shojaie and Michailidis 2010, Shojaie and Michailidis 2011 and Shojaie and Michailidis 2015.
+an R Package for estimating network Granger causality. It implements the general lasso, truncating lasso, adaptively thresholded lasso, and group lasso regression regularization framework for longitudinal and time series data. These methods are described in [Shojaie and Michailidis (2010)](https://academic.oup.com/bioinformatics/article/26/18/i517/205683), [Shojaie, Basu and Michailidis (2012)](https://faculty.washington.edu/ashojaie/papers/ThrshLasso4GGC.pdf) and Basu, [Shojaie and Michailidis (2015)](https://jmlr.org/papers/volume16/basu15a/basu15a.pdf).
 
 # Installation
 Run the following lines in R.
