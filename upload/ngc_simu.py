@@ -50,10 +50,6 @@ def defn_net(d, p, n, grp_sparsity = 0.5, sparsity = None, grp = None):
 def sim_data(n, edge, T, error_sd = 0.1, cutt = 30):
   d = edge.shape[0]
   p = edge.shape[1]
-  T = 100
-  n = 10
-  error_sd = 0.1,
-  cutt = 30
   x = np.zeros((n, p, T + (cutt * d)))
   for i in range(n):
     x[i, :, 0:d] = np.random.normal(0, 1, size=(p * d)).reshape((p, d))
