@@ -2,7 +2,7 @@
 
 ## The optimization of speed
 
--[ ] insert checkpoints at different levels
+- [ ] insert checkpoints at different levels
 
 ## The test of code stability
 
